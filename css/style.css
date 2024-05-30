@@ -1,0 +1,258 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.page {
+	overflow: hidden;
+	display: grid;
+	grid-template-areas: "header" "content" "footer";
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+}
+body {
+	font-size: 15px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* ======== Хедер ==========*/
+
+.header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+}
+
+.menu {
+	width: 17%;
+	min-width: 341px;
+	max-width: 500px;
+	height: 100vh;
+	border-right: solid 3px #c3c3c3;
+	padding: 40px;
+    transition: 1s;
+}
+
+.main-box {
+	height: 100vh;
+	width: 100%
+}
+
+.login-reg{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin: 40px 30px 0 60px;
+}
+
+.login {
+    text-decoration: none;
+    color: #dadfdb;
+    padding-left: 71.5px;
+	padding-right: 71.5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    border: 3px solid #53e700;
+    transition: padding 0.3s;
+}
+
+.login:hover {
+    padding-left: 65.5px;
+	padding-right: 65.5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.reg {
+    text-decoration: none;
+    color: #dadfdb;
+    padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    border: 3px solid #b31beb;
+    transition: padding 0.3s;
+}
+
+.reg:hover {
+    padding-left: 34px;
+	padding-right: 34px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text {
+	font-weight: bold;
+	font-size: 90px;
+	color: #dadfdb;
+	margin: 140px 50px;
+	letter-spacing: 4pt;
+}
+
+.back-header {
+	height: 100vh;
+	background: url(../img/head.png) center no-repeat;
+	background-size:cover;
+}
+
+.logo {
+	display: block;
+	image-orientation: center;
+	margin-top: 40px;
+}
+
+.link {
+	text-decoration: none;
+	color: #c3c3c3;
+	font-size: 24px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	margin-top: 80px;
+	transition: color 0.5s;
+}
+
+.link:hover {
+	color: #53e700;
+}
+
+.vk-social {
+	margin-top: 80px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.vk {
+	border: solid 3px transparent;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	transition: color 0.3s;
+	margin-right: 20px;
+}
+
+@keyframes vkhover {
+	from {
+		border: solid 3px transparent;
+	}
+	to {
+		border: solid 3px #b31beb;
+	}
+}
+
+.vk:hover {
+	animation: vkhover 0.3s 1 linear;
+	border: solid 3px #b31beb;
+}
+
+.logo-nav {
+	text-align: center;
+}
+
+/* ======== Контент ==========*/
+
+content {
+    display: flex;
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/bg.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 45px 45px  -40px #000;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+content > .left {
+	float: left;
+	width: auto;
+	height: auto;
+	color: #636363;
+}
+
+content > .right {
+	float: right;
+	width: auto;
+	height: auto;
+}
+
+.menutitle {
+	color: #636363;
+	position: relative;
+	font-size: 70px;
+    margin-bottom: 80px;
+}
+
+.menutext {
+	color: #636363;
+	position: relative;
+	font-size: 20px;
+    letter-spacing: 1pt;
+}
+
+#button {
+	text-decoration: none;
+	font-size: 30px;
+	top: 125px;
+	width: 200px;
+	height: 100px;
+	color: #636363;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	transition: border 0.3s;
+	text-align: center;
+	position: relative;
+    border: solid 3px #636363;
+}
+
+#button:hover {
+    border-color: #53e700;
+}
+
+/* ======== Футер ==========*/
+
+#footer {
+	background-color: #222222;
+	display: flex;
+	justify-content: center;
+	color: #dadfdb;
+	font-size: 13px;
+	padding-top: 30px;
+}
+
+footer {
+	width: 100%;
+	height: 190px;
+	background-color: #222222;
+	z-index: 99;
+}
+
+#address {
+	border-bottom: 3px solid #53e700;
+	max-width: 90%;
+}
+
+#contact {
+	border-bottom: 3px solid #b31beb;
+	max-width: 83%;
+}
+
+.contact {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.created {
+	color: #636363;
+	text-align: center;
+    font-size: 10px;
+}
