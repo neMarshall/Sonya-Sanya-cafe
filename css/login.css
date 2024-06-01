@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/login.png) no-repeat;
+	background-size: 100%;
+    margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.logo {
+    margin-right: 70px;
+    transition: 1.2s; 
+}
+
+.form {
+    margin-left: 70px;
+    background-color: #fff;
+    height: 380px;
+    width: 340px;
+}
+
+.header {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #636363;
+    font-weight: 600;
+    letter-spacing: 1pt;
+    text-align: center;
+}
+
+.login-password{
+    padding: 20px;
+}
+
+.login {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: #636363;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.input {
+    outline: none;
+    height: 30px;
+    width: 260px;
+    border-radius: 0px;
+    border: 1px solid #636363;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    height: 40px;
+    width: 200px;
+    color: #636363;
+    font-size: 17px;
+    border: 2px solid #636363;
+    transition: border 0.5s;
+}
+
+button:hover {
+    border-color: #53e700;
+}
