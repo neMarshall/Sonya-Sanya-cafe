@@ -1,63 +1,65 @@
 body {
-	font-size: 15px;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-	transition: background-color 0.3s, color 0.3s;
+  font-size: 15px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 body.light-theme {
-    background-color: white;
-    color: #797979;
+  background-color: white;
+  color: #797979;
 }
 
 body.light-theme a {
-    color: #797979;
+  color: #797979;
 }
 
 body.light-theme .theme-bg {
-    background-color: white;
-    transition: background-color 0.3s;
+  background-color: white;
+  transition: background-color 0.3s;
 }
 
 body.light-theme .theme-bg-invert {
-    background-color: black;
-    transition: background-color 0.3s;
+  background-color: black;
+  transition: background-color 0.3s;
 }
 
 body.light-theme .theme-color-invert {
-    color: black;
-    transition: color 0.3s;
+  color: black;
+  transition: color 0.3s;
 }
 
 body.light-theme .theme-invert-dark {
-    filter: invert(1);
-    transition: filter 0.3s;
+  filter: invert(1);
+  transition: filter 0.3s;
 }
 
 body.dark-theme {
-    background-color: black;
-    color: #c3c3c3;
+  background-color: black;
+  color: #c3c3c3;
 }
 
 body.dark-theme a {
-    color: #c3c3c3;
+  color: #c3c3c3;
 }
 
 body.dark-theme .theme-bg {
-    background-color: black;
-    transition: background-color 0.3s;
+  background-color: black;
+  transition: background-color 0.3s;
 }
 
 body.dark-theme .theme-bg-invert {
-    background-color: white;
-    transition: background-color 0.3s;
+  background-color: white;
+  transition: background-color 0.3s;
 }
 
 body.dark-theme .theme-color-invert {
-    color: white;
-    transition: color 0.3s;
+  color: white;
+  transition: color 0.3s;
 }
 body.dark-theme .theme-invert-light {
-    filter: invert(1);
-    transition: filter 0.3s;
+  filter: invert(1);
+  transition: filter 0.3s;
 }

@@ -1,23 +1,23 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
-	overflow: hidden;
-	display: grid;
-	grid-template-areas: "header" "content" "footer";
-	grid-template-rows: auto 1fr auto;
-	min-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 body {
-	font-size: 15px;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* 
@@ -26,90 +26,90 @@ ____________
 ____________*/
 
 .header {
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	display: flex;
-	justify-content: space-evenly;
-	height: 170px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-evenly;
+  height: 170px;
 }
 
-.logo-nav{
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
-	align-items: center;
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .logo {
-	display: block;
-	image-orientation: center;
-	margin-top: 30px;
-	margin-right: 30px;
+  display: block;
+  image-orientation: center;
+  margin-top: 30px;
+  margin-right: 30px;
 }
 
-.link{
-	text-decoration: none;
-	color: #dadfdb;
-	font-size: 18px;
-	margin: 0 30px 0 60px;
-	transition: 1.2s;
-    transition: border 0.5s;
-    border-bottom: 3px solid #222222;
+.link {
+  text-decoration: none;
+  color: #dadfdb;
+  font-size: 18px;
+  margin: 0 30px 0 60px;
+  transition: 1.2s;
+  transition: border 0.5s;
+  border-bottom: 3px solid #222222;
 }
 
 .link:hover {
-	border-color: #b31beb;
-	max-width: 83%;
-	margin-bottom: 20px;
+  border-color: #b31beb;
+  max-width: 83%;
+  margin-bottom: 20px;
 }
 
-.login-reg{
-    display: flex;
-    flex-direction: row;
-    font-size: 18px;
-    margin: 0 30px 0 60px;
+.login-reg {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  margin: 0 30px 0 60px;
 }
 
 .login {
-    text-decoration: none;
-    padding-left: 71.5px;
-	padding-right: 71.5px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-    border: 3px solid #53e700;
-    transition: padding 0.3s;
+  text-decoration: none;
+  padding-left: 71.5px;
+  padding-right: 71.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 3px solid #53e700;
+  transition: padding 0.3s;
 }
 
 .login:hover {
-    padding-left: 65.5px;
-	padding-right: 65.5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-left: 65.5px;
+  padding-right: 65.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .reg {
-    text-decoration: none;
-    padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-    border: 3px solid #b31beb;
-    transition: padding 0.3s;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 3px solid #b31beb;
+  transition: padding 0.3s;
 }
 
 .reg:hover {
-    padding-left: 34px;
-	padding-right: 34px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* 
@@ -117,77 +117,77 @@ ____________
     Контент 
 ____________*/
 
-content{
-    height: 4000px;
-	width: 100%;
-	padding-top: 50px;
-    transition: 2s;
+content {
+  height: 4000px;
+  width: 100%;
+  padding-top: 50px;
+  transition: 2s;
 }
 
-#head-main{
-	font-size: 60px;
-	font-weight: bold;
-	text-align: center;
+#head-main {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .left-right {
-	display: flex;
-	justify-content:center;
+  display: flex;
+  justify-content: center;
 }
 
 .left {
-	padding-top: 20px;
-	padding-left: 50px;
-    padding-bottom: 45px;
-	width: 200px;
-	height: 270px;
-	position: fixed;
-	margin-left: 130px;
-	box-shadow: 1px 1px 50px -25px #a7a7a7;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 45px;
+  width: 200px;
+  height: 270px;
+  position: fixed;
+  margin-left: 130px;
+  box-shadow: 1px 1px 50px -25px #a7a7a7;
 }
 
 .menu-link {
-	text-decoration: none;
-	font-size: 18px;
-	font-weight: 600;
-	display:flex;
-	margin-bottom: 30px;
-	transition: color 0.3s;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  margin-bottom: 30px;
+  transition: color 0.3s;
 }
 
 .menu-link:hover {
-	color: #b31beb;
+  color: #b31beb;
 }
 
 .right {
-	margin-left: 30%;
-	margin-right: 30%;
-	width: 65%;
-	height: 100vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 65%;
+  height: 100vh;
 }
 
 .food {
-	margin-top: 40px;
-	font-size: 35px;
-	font-weight: bold;
+  margin-top: 40px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .string {
-	padding-top: 40px;
-	display: flex;
+  padding-top: 40px;
+  display: flex;
 }
 
 .preview {
-	margin-right: 30px;
-	height: 420px;
-	width: 250px;
-    transition: 1.2s;
+  margin-right: 30px;
+  height: 420px;
+  width: 250px;
+  transition: 1.2s;
 }
 
 .preview:hover > img {
-	border: 2px solid #fff;
+  border: 2px solid #fff;
 }
 
 .preview > img {
-	box-shadow: 1px 1px 30px -5px #a7a7a7;
+  box-shadow: 1px 1px 30px -5px #a7a7a7;
 }
