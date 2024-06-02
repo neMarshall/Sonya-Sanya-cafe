@@ -33,7 +33,6 @@ ____________*/
 	display: flex;
 	justify-content: space-evenly;
 	height: 170px;
-	background-color: #222222;
 }
 
 .logo-nav{
@@ -81,7 +80,6 @@ ____________*/
 
 .login {
     text-decoration: none;
-    color: #dadfdb;
     padding-left: 71.5px;
 	padding-right: 71.5px;
 	padding-top: 15px;
@@ -99,7 +97,6 @@ ____________*/
 
 .reg {
     text-decoration: none;
-    color: #dadfdb;
     padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 15px;
@@ -124,14 +121,12 @@ content{
     height: 4000px;
 	width: 100%;
 	padding-top: 50px;
-	background-color: #f1f1f1;
     transition: 2s;
 }
 
 #head-main{
 	font-size: 60px;
 	font-weight: bold;
-	color: #636363;
 	text-align: center;
 }
 
@@ -148,13 +143,11 @@ content{
 	height: 270px;
 	position: fixed;
 	margin-left: 130px;
-	background-color: #fff;
 	box-shadow: 1px 1px 50px -25px #a7a7a7;
 }
 
 .menu-link {
 	text-decoration: none;
-	color: #636363;
 	font-size: 18px;
 	font-weight: 600;
 	display:flex;
@@ -176,7 +169,6 @@ content{
 .food {
 	margin-top: 40px;
 	font-size: 35px;
-	color: #636363;
 	font-weight: bold;
 }
 
@@ -198,46 +190,4 @@ content{
 
 .preview > img {
 	box-shadow: 1px 1px 30px -5px #a7a7a7;
-}
-
-/* 
-____________
-    Футер 
-____________*/
-
-#footer {
-	background-color: #222222;
-	display: flex;
-	justify-content: center;
-	color: #dadfdb;
-	font-size: 14px;
-	padding-top: 30px;
-}
-
-footer {
-	width: 100%;
-	height: 190px;
-	background-color: #222222;
-	z-index: 99;
-}
-
-#address {
-	border-bottom: 3px solid #53e700;
-	max-width: 90%;
-}
-
-#contact {
-	border-bottom: 3px solid #b31beb;
-	max-width: 83%;
-}
-
-.contact {
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
-.created {
-	color: #636363;
-	text-align: center;
-    font-size: 10px;
 }

@@ -1,0 +1,46 @@
+/* ======== Футер ==========*/
+
+#footer {
+	/* background-color: #222222; */
+	display: flex;
+	justify-content: center;
+	/* color: #dadfdb; */
+	font-size: 13px;
+	padding-top: 30px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 190px;
+	/* background-color: #222222; */
+	z-index: 99;
+}
+
+#theme-toggle {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+
+#address {
+	border-bottom: 3px solid #53e700;
+	max-width: 90%;
+}
+
+#contact {
+	border-bottom: 3px solid #b31beb;
+	max-width: 83%;
+}
+
+.contact {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.created {
+	/* color: #636363; */
+	text-align: center;
+    font-size: 10px;
+}

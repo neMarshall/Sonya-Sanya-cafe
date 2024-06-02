@@ -30,7 +30,6 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	height: 170px;
-	background-color: #222222;
 }
 
 .logo-nav{
@@ -55,7 +54,6 @@ body {
 
 .link{
 	text-decoration: none;
-	color: #dadfdb;
 	font-size: 18px;
 	margin: 0 30px 0 60px;
 	transition: 1.2s;
@@ -78,7 +76,6 @@ body {
 
 .login {
     text-decoration: none;
-    color: #dadfdb;
     padding-left: 71.5px;
 	padding-right: 71.5px;
 	padding-top: 15px;
@@ -96,7 +93,6 @@ body {
 
 .reg {
     text-decoration: none;
-    color: #dadfdb;
     padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 15px;
@@ -116,7 +112,6 @@ body {
 content{
     width: 100%;
 	padding-top: 40px;
-	background-color: #f1f1f1;
 	height: 120vh;
 	background: url(../img/feedback.png) center no-repeat;
 	background-size:cover;
@@ -126,7 +121,6 @@ content{
 #head-main{
 	font-size: 60px;
 	font-weight: bold;
-	color: #fff;
 	text-align: center;
 }
 
@@ -140,7 +134,6 @@ content{
 .block {
     width: 300px;
     height: 500px;
-    background-color:#fff;
     margin-right: 20px;
     margin-left: 20px;
     box-shadow: 1px 1px 20px 5px #a3a3a3;
@@ -148,7 +141,6 @@ content{
 
 .name {
     font-size: 30px;
-    color: #636363;
     font-weight: 600;
     text-align: center;
     margin-top: 30px;
@@ -158,7 +150,6 @@ content{
 
 .feeadback {
     padding: 60px 25px 40px 25px;
-    color: #636363;
     font-size: 16px;
 }
 #button-parent {
@@ -170,51 +161,11 @@ content{
     color: #fff;
     font-size: 22px;
     font-weight: 500;
-    padding: 20px 95px 20px 95px;
-    background-color: #222222;
+    padding: 20px 95px 20px 95px;;
     transition: border 0.5s;
     border: 3px solid #222222;
 }
 
 .button:hover {
     border-color: #53e700;
-}
-
-/* ======== Футер ==========*/
-
-#footer {
-	background-color: #222222;
-	display: flex;
-	justify-content: center;
-	color: #dadfdb;
-	font-size: 14px;
-	padding-top: 30px;
-}
-
-footer {
-	width: 100%;
-	height: 190px;
-	background-color: #222222;
-	z-index: 99;
-}
-
-#address {
-	border-bottom: 3px solid #53e700;
-	max-width: 90%;
-}
-
-#contact {
-	border-bottom: 3px solid #b31beb;
-	max-width: 83%;
-}
-
-.contact {
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
-.created {
-	color: #636363;
-	text-align: center;
-    font-size: 10px;
 }

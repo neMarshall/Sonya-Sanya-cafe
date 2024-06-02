@@ -12,11 +12,6 @@
 	grid-template-rows: auto 1fr auto;
 	min-height: 100vh;
 }
-body {
-	font-size: 15px;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-}
 
 /* ======== Хедер ==========*/
 
@@ -53,7 +48,7 @@ body {
 
 .login {
     text-decoration: none;
-    color: #dadfdb;
+    /* color: #dadfdb; */
     padding-left: 71.5px;
 	padding-right: 71.5px;
 	padding-top: 15px;
@@ -71,7 +66,7 @@ body {
 
 .reg {
     text-decoration: none;
-    color: #dadfdb;
+    /* color: #dadfdb; */
     padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 15px;
@@ -109,7 +104,6 @@ body {
 
 .link {
 	text-decoration: none;
-	color: #c3c3c3;
 	font-size: 24px;
 	margin: 0 auto;
 	display: block;
@@ -154,6 +148,9 @@ body {
 
 .logo-nav {
 	text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ======== Контент ==========*/
@@ -174,7 +171,7 @@ content > .left {
 	float: left;
 	width: auto;
 	height: auto;
-	color: #636363;
+	/* color: #636363; */
 }
 
 content > .right {
@@ -184,14 +181,14 @@ content > .right {
 }
 
 .menutitle {
-	color: #636363;
+	/* color: #636363; */
 	position: relative;
 	font-size: 70px;
     margin-bottom: 80px;
 }
 
 .menutext {
-	color: #636363;
+	/* color: #636363; */
 	position: relative;
 	font-size: 20px;
     letter-spacing: 1pt;
@@ -203,7 +200,7 @@ content > .right {
 	top: 125px;
 	width: 200px;
 	height: 100px;
-	color: #636363;
+	/* color: #636363; */
 	padding-left: 70px;
 	padding-right: 70px;
 	padding-top: 25px;
@@ -216,43 +213,4 @@ content > .right {
 
 #button:hover {
     border-color: #53e700;
-}
-
-/* ======== Футер ==========*/
-
-#footer {
-	background-color: #222222;
-	display: flex;
-	justify-content: center;
-	color: #dadfdb;
-	font-size: 13px;
-	padding-top: 30px;
-}
-
-footer {
-	width: 100%;
-	height: 190px;
-	background-color: #222222;
-	z-index: 99;
-}
-
-#address {
-	border-bottom: 3px solid #53e700;
-	max-width: 90%;
-}
-
-#contact {
-	border-bottom: 3px solid #b31beb;
-	max-width: 83%;
-}
-
-.contact {
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
-.created {
-	color: #636363;
-	text-align: center;
-    font-size: 10px;
 }
